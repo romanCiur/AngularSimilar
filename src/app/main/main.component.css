@@ -1,0 +1,54 @@
+main{
+    width: 100%;
+}
+section .uno{
+    width: 600px;
+    height: 100px;
+    margin: auto;
+    background: rgb(226, 223, 223);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    box-shadow: 0 2px 2px 0 rgba(10,16,20,.25)/*#b8b9b8*/;
+    margin-bottom: 30px;
+}
+section .unoo{
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    background: rgb(226, 223, 223);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    box-shadow: 0 2px 2px 0 rgba(10,16,20,.25)/*#b8b9b8*/;
+    margin-bottom: 30px;
+}
+section .uno img{width:200px;height:50px;transform: scale(.8)}
+section .unoo img{width:100px;height:50px;transform: scale(.9)}
+section .uno a{padding: .6rem 1.6rem;background:#1976d2;border-radius: 50px;text-decoration: none;color:whitesmoke;}
+.dos h2,.tres h2,.cuatro h2,.cinco h2{
+    color:#0d47a1;
+}
+.dos,.tres,.cuatro,.cinco{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+.dos .txt, .tres .txt, .cuatro .txt, .cinco .txt, .unoo{
+    width: 45%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 20px;
+    padding: 0 0 0 1rem;
+}
+.dos .tvs,.tres .tvs,.cuatro .tvs,.cinco .tvs{
+    width: 306px;
+    height: 180px;
+}
